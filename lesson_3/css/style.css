@@ -1,0 +1,52 @@
+
+body{
+	background-color: #fffdd0;
+}
+.wrapper{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+h4{
+	color: green;
+}
+
+h2{
+	color: blueviolet;
+}
+
+h5{
+	color: blue;
+}
+
+#header li{
+	color: greenyellow;
+}
+
+#header a{
+	color: #f466a6;
+}
+
+.block-stretching{
+	color: red;
+}
+
+.usefulness li{
+color: #1262f4;
+}
+.footer{
+	text-align: center;
+}
+/* обнуление можно добавить позже и переменную тоже */
+
+.format{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 700;	
+	color: red;
+}
+
+.format span{
+	text-transform: uppercase;
+	color: green;
+
+}
