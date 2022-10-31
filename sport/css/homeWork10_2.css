@@ -1,0 +1,54 @@
+h1, h2 {
+	text-align:  center;
+}
+body {	
+  background: rgb(72, 75, 84);
+  font-family: 'Roboto', sans-serif;
+  color: #b6b6b6;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0
+}
+.contact {
+  float: right;
+  margin-right: 380px;
+  margin-top: 10%;
+}
+.left_foto:hover {
+    transform: scale(1.8);
+    padding-left: 3%;
+}
+.foto:hover {
+    transform: scale(1.8);
+}
+.right_foto:hover {
+    transform: scale(1.8);
+    padding-right: 4.5%;
+}
+
+.thumb {
+    -moz-text-align-last: justify; text-align-last: justify;
+}
+.video {
+  width: 100%; 
+}
+.foto  {
+    border: 2px solid #55c5e9;
+    max-height: 100%;
+    overflow: hidden;
+    padding: 5px;
+    background: #666;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.row a:hover { 
+   background:#5c8db7; 
+}
+.logo-wrapper {
+  padding: 5% 0;
+
+  
+
+}
