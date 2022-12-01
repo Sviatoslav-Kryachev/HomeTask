@@ -1,0 +1,328 @@
+[class*="__container"]{
+	max-width: 950px;
+	margin: 0 auto;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+/* .wrapper {
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+	padding: 50px;
+} */
+
+
+.thems{
+	background: url('../img/14.jpg') 0 0/cover no-repeat;  
+	min-height: 1000px;
+	height: 1000px;
+}
+
+.header{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	padding: 15px;
+	background-color: #002855;
+	z-index: 100;
+}
+.header__container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.header__menu {}
+
+.menu {
+	font-size: 0;
+}
+.menu__item {
+	position: relative;
+	display: inline-block;
+	
+
+}
+.menu__item:not(:last-child){
+	margin-right: 10px;
+}
+.menu__item:hover .sub-menu{
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+	border: 1px solid #002855;
+}
+
+
+.menu__link {
+	font-size: 16px;
+	color: #fff;
+	display: inline-block;
+	padding: 5px 0px;
+
+}
+.sub-menu {
+	background-color: #3586b8;
+	padding: 15px;
+	position: absolute;
+	min-width: 180px;
+	top: 130%;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease 0s;
+
+
+}
+
+.sub-menu__item {
+	/* border: 1px solid #002855; */
+
+}
+
+.sub-menu__item a:hover{
+color: #1f0313;
+
+}
+.sub-menu__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.sub-menu__link {
+	font-size: 16px;
+	color: #fff;
+}
+
+.car {
+	position: absolute;
+	top: -491px;
+	left: -699px;
+	max-width: 250px;
+	max-height: 250px;
+
+}
+.car:hover {
+	position: absolute;
+	top: -470px;
+	left: -699px;
+	max-width: 250px;
+	max-height: 250px;
+
+}
+
+.moon{
+	z-index: 80;
+}
+.moon img{
+	position: absolute;
+	top: 55px;
+  left: 735px;
+  max-height: 100px;
+  max-width: 100px;
+  z-index: 2;
+}
+
+.car__wheel2 {
+	position: absolute;
+	top: 918px;
+	left: 1168px;
+}
+
+.car__wheel1 {
+	position: absolute;
+	top: 899px;
+	left: 1560px;
+}
+.car__front-door {
+	position: absolute;
+	top: 764px;
+	left: 1268px;
+}
+.car__back-door {
+	position: absolute;
+	top: 762px;
+	left: 1429px;
+}
+
+.car__windshield {
+	position: absolute;
+	top: 754px;
+	left: 911px;
+}
+.car__radiator-grill {
+	position: absolute;
+	top: 928px;
+	left: 709px;
+}
+.car__hood {
+	position: absolute;
+	top: 860px;
+	left: 736px;
+}
+.car__rear-door {
+	position: absolute;
+	top: 862px;
+	left: 1463px;
+}
+
+.car__ahead-door {
+	position: absolute;
+	top: 871px;
+	left: 1260px;
+}
+.thems__speedometr{
+	position: absolute;
+	top: 107px;
+	left: 62px;
+	height: 100px;
+	width: 100px;
+}
+.thems__speedometr img{
+	height: 150px;
+	width: 400px;
+	border-radius: 20px;
+}
+.thems__speedometr img:hover{
+	transform: scale(1.2);
+}
+.thems__logo{
+	position: absolute;
+	top: 58px;
+	left: 999px;
+	z-index: 88;
+}
+.thems__logo img{
+height: 250px;
+width: 250px;
+}
+  /* @media (max-width:1706px) {
+	.car{
+		position: relative;
+		width: 350px;
+		height: 150px;
+		top: 50px;
+		left: 729px;
+	}
+.car__logo{
+	position: absolute;
+	top: 50px;
+	left: 729px;
+}
+}    */
+/* @media (max-width:3665px) {
+	.car{
+	position: relative;
+	width: 350px;
+	height: 150px;
+	top: -15px;
+	left: -294px;
+	}
+.car__logo{
+	position: absolute;
+	top: 78px;
+	left: 1381px;
+}
+}   */
+
+.task{
+	background-color: violet;
+	height: 500px;
+	padding: 60px;
+	
+
+}
+
+.item{
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	font-size: 25px;
+	padding: 15px;
+}
+
+.item__1 {
+	background-color: #704513;
+	max-height: 150px;
+	border-radius: 20px;
+	max-height: 300px;
+	opacity: 1;
+	padding: 15px;
+	position: relative;
+	bottom: 25px;
+	left: -86px;
+	z-index: 3;
+}
+.item__2 {
+	background-color:#530ca4;
+	max-height: 150px;
+	border-radius: 20px;
+	padding: 15px;
+	position: relative;
+	top: -65px;
+	left: -26px;
+	z-index: 2;
+}
+.item__3{
+	background-color:#7A956B;
+	max-height: 150px;
+	/* color: #222222; */
+	padding: 15px;
+	border-radius: 20px;
+	position: relative;
+	top: -85px;
+	left: 40px;
+	z-index: 1;
+
+}
+.track{
+	background-color:#7A956B;
+	
+}
+.sticky{
+	color: #fff;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.sticky__block1{
+	background-color: #530ca4;
+	border-radius: 15px;
+	padding: 15px;
+	position: sticky;
+	top: 100px;
+	min-height: 180px;
+}
+.sticky__block2{
+	background-color: #e9963d;
+	border-radius: 15px;
+	padding: 15px;
+	position: sticky;
+	top: 100px;
+	min-height: 180px;
+
+}
+.sticky__block3{
+	background-color: #de0b45;
+	height: 150px;
+	border-radius: 15px;
+	padding: 15px;
+	position: sticky;
+	top: 100px;
+	min-height: 180px;
+
+
+}
+.sticky__img img{
+	max-width: 100%;
+
+}
+.sticky__block2 img{
+	max-width: 100%;
+}
+.sticky__block3 img{
+	max-width: 100%;
+}
+.rest{
+	max-width: 100%;
+}
